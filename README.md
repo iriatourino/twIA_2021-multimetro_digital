@@ -1,10 +1,10 @@
-# [Título del trabajo]
+# [Multímetro digital.]
 
-[Descripción breve del proyecto a realizar (2-3 frases).]
+[Nuestro multimetro será capaz de medir tensiones y corrientes a través del arduino, pasará los datos al ordenador y mediante un codigode Visual guardar los datos en un fichero.]
 
 ## Integrantes del equipo
 
-[Nombres, apellidos, y usuario GitHub de los integrantes del equipo.]
+[Alejandro Mayor Escalada, @amayore .]
 
 ## Objetivos del trabajo
 
