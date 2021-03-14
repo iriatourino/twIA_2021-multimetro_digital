@@ -5,7 +5,11 @@ Nuestro multimetro será capaz de medir tensiones y corrientes a través del ard
 ## Integrantes del equipo
 
 Alejandro Mayor Escalada, @amayore .
-Roberto Vázquez Magdaleno
+Roberto Vázquez Magdaleno.
+Inés Rico Peng.
+Raquel Roca Pereira.
+Gema Sánchez Sánchez.
+Iria Touriño Villanueva.
 
 ## Objetivos del trabajo
 
