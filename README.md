@@ -39,3 +39,7 @@ El TP4056 es un chip encapsulado en formato SOP-8, adecua la entrada de energía
 fuente:https://www.hwlibre.com/tp4056/
 
 ### Pulsadores  
+Son componentes eléctricos que permiten o no el paso de la corriente dependiendo de si están accionados o no. Al presionarlo se abrirá o cerrará, y para que vuelva a su estado original habrá que realizar el mismo procedimiento.
+En nuestro caso, los pulsadores los utilizaremos para seleccionar qué magnitudes queremos que mida nuestro multímetro y en qué escala concreta se van a realizar estas medidas. Por ejemplo, si necesitamos medir amperios en una escala de mA presionaremos los pulsadores uno y cuatro; realizando el mismo proceso para medir el voltaje y la resistencia. A parte tendremos otro pulsador que servirá para encender el multímetro, encendiendo un led cuando esté en la posición que permita el paso de corriente al circuito y así poder diferenciar los estados de on y off.
+Fuente: https://www.areatecnologia.com/electricidad/pulsador.html
+
