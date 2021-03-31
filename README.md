@@ -17,8 +17,8 @@ Diseñar y desarrollar un multímetro capaz de hacer lecturas de corriente, volt
 
 ## Sensores y actuadores
 
-Convertidor analógico-digital
-Pantalla LCD
-Sensor de corriente ACS712
-Módulo cargador de batería
-Pulsadores
+Convertidor analógico-digital  
+Pantalla LCD  
+Sensor de corriente ACS712  
+Módulo cargador de batería  
+Pulsadores  
