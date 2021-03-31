@@ -8,9 +8,17 @@ Alejandro Mayor Escalada, @amayore .
 Roberto Vázquez Magdaleno.
 Inés Rico Peng.
 Raquel Roca Pereira.
-Gema Sánchez Sánchez.
+Gema Sánchez Sánchez, @gema-upm .
 Iria Touriño Villanueva.
 
 ## Objetivos del trabajo
 
-El fin del proyecto es ser capaces de hacer unas medidas mediante unos sensores y pasarlas al ordenador y que se queden guardadas.
+Diseñar y desarrollar un multímetro capaz de hacer lecturas de corriente, voltaje y resistencia de cualquier circuito o elemento (resistencias), pasar las lecturas al ordenador y que se queden guardadas en un fichero.
+
+## Sensores y actuadores
+
+Convertidor analógico-digital
+Pantalla LCD
+Sensor de corriente ACS712
+Módulo cargador de batería
+Pulsadores
