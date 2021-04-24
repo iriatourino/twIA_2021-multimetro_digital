@@ -13,7 +13,7 @@ Iria Touriño Villanueva.
 
 ## Objetivos del trabajo
 
-Diseñar y desarrollar un multímetro capaz de hacer lecturas de corriente, voltaje y resistencia de cualquier circuito o elemento (resistencias), pasar las lecturas al ordenador y que se queden guardadas en un fichero.
+Diseñar y desarrollar un multímetro capaz de hacer lecturas de corriente, voltaje y resistencia de cualquier circuito o elemento (resistencias), pasar las lecturas al ordenador desde Visual Studio y que se queden guardadas en un fichero.
 
 ## Sensores y actuadores
 
