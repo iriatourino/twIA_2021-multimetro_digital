@@ -41,3 +41,56 @@ fuente:https://www.hwlibre.com/tp4056/
 ### Pulsadores  
 Son componentes eléctricos que permiten o no el paso de la corriente dependiendo de si están accionados o no. Al presionarlo se abrirá o cerrará, y para que vuelva a su estado original habrá que realizar el mismo procedimiento.  En nuestro caso, los pulsadores los utilizaremos para seleccionar qué magnitudes queremos que mida nuestro multímetro y en qué escala concreta se van a realizar estas medidas. Por ejemplo, si necesitamos medir amperios en una escala de mA presionaremos los pulsadores uno y cuatro; realizando el mismo proceso para medir el voltaje y la resistencia. A parte tendremos otro pulsador que servirá para encender el multímetro, encendiendo un led cuando esté en la posición que permita el paso de corriente al circuito y así poder diferenciar los estados de on y off.  Fuente: https://www.areatecnologia.com/electricidad/pulsador.html
 
+## Código
+### Parte del ohmetro
+int PinA0 = 0;  
+
+int lectura = 0;
+
+int Ve = 5; // Tensión en el Arduino.
+
+float VR2 = 0;
+
+float R1 = 10000;
+
+float R2 = 0;
+
+void setup()
+
+{
+
+Serial.begin(9600);
+
+}
+
+
+void loop()
+
+{
+   
+   lectura = analogRead(PinA0);
+   
+   if (lectura)
+   
+   {
+   
+   VR2 = (lectura * Ve) / 1024.0;
+   
+   R2 = R1 * (Ve / VR2) - 1;
+   
+   Serial.print("VR2: ");
+   
+   Serial.println(VR2);
+   
+   Serial.print("R2: ");
+   
+   Serial.println(R2);
+
+   Serial.print("Ω");
+   
+        delay(1000);
+    }
+}
+
+
+
