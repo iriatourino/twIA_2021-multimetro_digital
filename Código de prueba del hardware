@@ -1,0 +1,83 @@
+
+//Código para comprobar el hardware en arduino
+//sensor corriente
+ void medir_corriente(float);
+
+
+void setup() {
+  
+  Serial.begin(9600);
+
+}
+
+void loop() {
+ 
+  float voltajecorriente = analogRead(A0)* (5.0 / 1023.0);
+medir_corriente(voltajecorriente);
+}
+
+void medir_corriente(float v)
+{
+  float corriente;
+
+  corriente=(v)/185;
+
+  Serial.print("Corriente: ");
+  Serial.println(corriente);
+
+ // lcd.clear();
+ // lcd.setCursor(0,0);
+ // lcd.print("CORRIENTE: ");
+  //lcd.print(corriente,2);     //se imprimi en la lcd con dos decimales
+  //lcd.setCursor(0,1);                  
+  //lcd.print("amperios");
+  
+  delay(200);  
+}
+ //Divisor de tension
+const int analogPin = A0;
+void setup() {
+  // put your setup code here, to run once:
+Serial.begin(9600);
+}
+
+void loop() {
+  float Ve;
+   float R1 = 10000;
+   float R2=220;
+  // Leer el pin analógico
+  int valorA0 = analogRead(analogPin);
+ 
+  // Convertir a voltios el valor analógico
+  float voltaje = valorA0 * (5.0/1023.0);
+
+  
+   //Ve=voltaje*(R1/R2+1);
+  // Mostramos los voltios en el monitor serie
+  Serial.println(voltaje);
+  //Serial.println(Ve);
+
+}
+[9:53, 24/5/2021] +34 646 08 88 44: //medidor de voltaje
+[9:53, 24/5/2021] +34 646 08 88 44: const int analogPin = A0;
+void setup() {
+  Serial.begin(9600);
+  
+  
+}
+
+void loop() {
+  // Leer el pin analógico
+  int valorA0 = analogRead(analogPin);
+ 
+  // Convertir a voltios el valor analógico
+  float voltaje = valorA0 * (5.0/1023.0);
+
+  Serial.println(voltaje);
+
+  /*
+
+   
+   */
+
+}
